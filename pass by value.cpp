@@ -2,7 +2,8 @@
 using namespace std;
 
 void dummy(int n){
-    cout<<"n is"<<n<<endl;
+    n++;
+    cout<<"n is     "<<n<<endl;
 }
 
 int main(){
@@ -10,6 +11,6 @@ int main(){
     cin>>n;
 
     dummy(n);
-    cout<<"number n is"<<n<<endl;
+    cout<<"number n is "<<n<<endl;
     return 0;
 }
