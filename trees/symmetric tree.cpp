@@ -1,7 +1,8 @@
 #include<iostream>
 using namespace std;
 
-struct node{
+class node{
+    public:
     int value;
     node* left;
     node* right;
